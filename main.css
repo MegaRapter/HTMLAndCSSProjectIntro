@@ -1,0 +1,66 @@
+/* This is importing the font 'Smooch Sans'. */
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+
+/* ----- General ----- */
+html, body, ul, li, div, header, section, h1, h2, p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Smooch Sans';
+}
+body {
+    background: #000;
+    color: #fff;
+}
+h2 {font-weight: 500;}
+p {font-weight: 100;}
+
+/* ----- Header ----- */
+header {
+    background-image: url(images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 21rem;
+    text-align: center;
+}
+#header-shading {
+    background: #0004;
+    height: 21rem;
+}
+h1 {
+    padding: 0 1rem;
+    border-bottom: 1.5px solid #fff;
+    margin: 3.8rem auto 0 auto;
+    width: 12rem;
+    font-size: 4rem;
+}
+header p {font-size: 2rem;}
+/* --- Navigation Bar --- */
+nav {
+    padding-top: 1.4rem;
+    border-bottom: 1.5px solid #fff;
+    margin: 0 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul, nav li, nav #nav-title {display: inline;}
+#nav-title {
+/* #nav-title contains the words 'Freshest' on the nav bar. */
+    font-weight: 600;
+}
+nav ul {padding: 0;}
+nav li {
+    padding: 0 0.3rem;
+    font-size: 0.8rem;
+}
+
+/* ----- Main Body ----- */
+section {display: flex;}
+img {height: 12rem;}
+section div {
+    padding: 2.8rem 2.2rem;
+    flex-grow: 1;
+}
+h2 {margin-bottom: 1rem;}
+#section2 {background: #111;}
+#section3 {background: #222;}
